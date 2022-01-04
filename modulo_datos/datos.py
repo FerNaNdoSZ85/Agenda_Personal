@@ -94,10 +94,3 @@ def RECUPERAR(recuperar):
     PAPELERA.pop(recuperar-1)
     print(PAPELERA)
 
-def BUSCAR(): ##!!! FALTA TERMINAR LA BUSQUEDA
-    buscado = input("Ingrese clave de busqueda: \n")
-    for b in AGENDA:
-        if b  == buscado :
-            encontrados.append(contacto_.values())
-    print("Coincidencias encontradas: ")
-    print(encontrados)
